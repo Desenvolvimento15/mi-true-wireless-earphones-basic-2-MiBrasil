@@ -1,0 +1,28 @@
+@import url("./fonts/CamphorPro_vf.css");
+@import url("./fonts/camphorpro_woff2.css");
+
+@font-face {
+  font-family: "Xiaomi Brand";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./fonts/Brand.woff2") format("woff2");
+}
+
+body {
+  font-family: "Camphor Pro", sans-serif;
+}
+
+.mi-brand {
+  font-family: "Xiaomi Brand", "Camphor Pro", sans-serif;
+}
+
+@supports (font-variation-settings: "wght" 400) {
+  body {
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+  }
+
+  body .mi-brand {
+    font-family: "Xiaomi Brand", "Camphor Pro VF", "Camphor Pro", sans-serif;
+  }
+}
