@@ -17,6 +17,10 @@
   --background-silver: #dedadb;
   --background-silver_dark: #f2f3f7;
   --background-brown: #e1dcd6;
+  --background-dark: #7d8288;
+  --background-dark-light: #3e4b5b;
+  --background-dark-level: #c3c4c8;
+  --background-silverchair: #edeef2;
 }
 
 html {
@@ -40,6 +44,7 @@ html {
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
 }
 
 div .row {
@@ -71,6 +76,26 @@ div .col-sm-12 {
 .boxcolor4 {
   background: var(--background-silver_dark);
 }
+
+.boxcolor5 {
+  background: var(--background-dark);
+}
+
+.boxcolor6 {
+  background: var(--background-dark-light);
+}
+.boxcolor7 {
+  background: var(--background-dark-level);
+}
+
+.boxcolor8 {
+  background: var(--background-silverchair);
+}
+
+.boxcolor9 {
+  background: var(--background-silverchair);
+}
+
 /***************************** Grind *****************************/
 
 .grid-xiaomi {
@@ -84,8 +109,8 @@ div .col-sm-12 {
 
 .title {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 3rem;
+  font-weight: 800;
   position: relative;
   margin-bottom: 5rem;
 }
