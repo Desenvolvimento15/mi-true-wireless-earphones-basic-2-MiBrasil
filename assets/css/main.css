@@ -21,6 +21,7 @@
   --background-dark-light: #3e4b5b;
   --background-dark-level: #c3c4c8;
   --background-silverchair: #edeef2;
+  --background-black-silver: #858688;
 }
 
 html {
@@ -93,7 +94,7 @@ div .col-sm-12 {
 }
 
 .boxcolor9 {
-  background: var(--background-silverchair);
+  background: var(--background-black-silver);
 }
 
 /***************************** Grind *****************************/
