@@ -90,15 +90,31 @@ body {
 }
 
 .boxcolor {
-  background-color: #041a2f;
+  background-color: #dedadb;
 }
 
 .boxcolor2 {
-  background-color: #e4f6f9;
+  background-color: #00dbf1;
 }
 
-.boxcolor2 {
-  background-color: #000000;
+.boxcolor3 {
+  background-color: #e1dcd6;
+}
+
+.boxcolor4 {
+  background-color: #f2f3f7;
+}
+
+.boxcolor5 {
+  background-color: #7d8288;
+}
+
+.boxcolor6 {
+  background-color: #3e4b5b;
+}
+
+.boxcolor7 {
+  background-color: #c3c4c8;
 }
 
 /***************************grid*************************************/
