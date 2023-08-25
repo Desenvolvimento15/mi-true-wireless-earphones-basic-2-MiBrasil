@@ -21,6 +21,12 @@ body {
   overflow-wrap: break-word;
 }
 
+.title-2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.7rem;
+  margin: 2rem;
+}
 .subtitle {
   text-align: center;
   font-size: 3.5rem;
@@ -166,6 +172,13 @@ body {
     font-family: "Camphor Pro", sans-serif;
     position: relative;
     line-height: 1;
+  }
+
+  .title-2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 2rem;
   }
 
   .subtitle {
